@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "contact": "Contact",
+    "downloadCV": "Télécharger CV"
+  },
+  "hero": {
+    "availableForWork": "Disponible pour le travail",
+    "greeting": "Salut, je suis",
+    "currentlyWorking": "Travaille actuellement sur des projets ML/IA...",
+    "title": "Data Scientist & Ingénieur IA"
+  },
+  "about": {
+    "title": "À propos de moi",
+    "subtitle": "Découvrez mes compétences, mon expérience et mon approche du développement IA/ML.",
+    "professionalTitle": "Data Scientist & Ingénieur IA",
+    "summary": "Data Scientist spécialisé en Machine Learning et IA, avec une expérience concrète dans le développement de solutions prêtes pour la production en R&D et en milieu professionnel, en France et en Tunisie. Passionné par la résolution de problèmes réels grâce à des approches data‑driven, de la recherche expérimentale aux déploiements à l’échelle.",
+    "location": "Basé à Cergy, France",
+    "education": {
+      "title": "Éducation",
+      "type": "Type"
+    },
+    "skills": [
+      "Développement Frontend",
+      "Gestion de Base de Données",
+      "Développement d'API",
+      "Développement Backend", 
+      "Design UI/UX",
+      "Tests & Déploiement"
+    ],
+    "features": {
+      "userCentered": {
+        "title": "Centré sur l'utilisateur",
+        "description": "Construire en pensant aux utilisateurs, en se concentrant sur des expériences intuitives et accessibles."
+      },
+      "cleanCode": {
+        "title": "Code Propre",
+        "description": "Écrire du code maintenable, efficace et bien structuré en suivant les meilleures pratiques."
+      },
+      "scalableSolutions": {
+        "title": "Solutions Évolutives",
+        "description": "Développer une architecture qui grandit avec les besoins de votre entreprise."
+      },
+      "modernTechnologies": {
+        "title": "Technologies Modernes",
+        "description": "Utiliser les derniers frameworks et outils pour des performances optimales."
+      }
+    }
+  },
+  "experience": {
+    "title": "Expérience Professionnelle",
+    "subtitle": "Mon parcours en Data Science et IA en France et en Tunisie.",
+    "responsibilities": "Responsabilités :",
+    "expandDetails": "Voir les détails",
+    "collapseDetails": "Masquer les détails",
+    "showVideo": "Afficher la vidéo démo",
+    "hideVideo": "Masquer la vidéo démo",
+    "download": "Télécharger",
+    "watchDemo": "Voir la démo",
+    "viewCertificate": "Voir le certificat"
+  },
+  "skills": {
+    "title": "Compétences Techniques",
+    "subtitle": "Technologies et outils avec lesquels j'ai travaillé tout au long de ma carrière.",
+    "categories": {
+      "ai": "IA & LLM",
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "databases": "Bases de données",
+      "tools": "Outils & DevOps"
+    },
+    "proficiencyLevels": "Niveaux de Compétence",
+    "levels": {
+      "aiIntegration": "Intégration IA & LLM",
+      "backendDevelopment": "Développement Backend",
+      "frontendDevelopment": "Développement Frontend",
+      "databaseDesign": "Conception de Base de Données",
+      "devopsDeployment": "DevOps & Déploiement"
+    },
+    "coreCompetencies": {
+      "title": "Compétences principales",
+      "areas": {
+        "aiIntegration": {
+          "title": "Intégration IA/ML",
+          "description": "Conception de systèmes de vision par ordinateur et NLP avec deep learning; pipelines d’inférence temps réel et évaluation."
+        },
+        "fullStackDevelopment": {
+          "title": "Développement & Optimisation de Modèles",
+          "description": "Suivi d’expériences, réglage d’hyperparamètres et optimisation des performances pour des modèles robustes et prêt‑prod."
+        },
+        "databaseApiDesign": {
+          "title": "Data Engineering & APIs",
+          "description": "Préparation des données, feature engineering et orchestration d’APIs (FastAPI/Flask) avec MongoDB/PostgreSQL."
+        },
+        "modernPractices": {
+          "title": "MLOps & Bonnes Pratiques",
+          "description": "Versioning, reproductibilité, dockerisation, CI/CD et collaboration pour des déploiements fiables."
+        }
+      }
+    }
+  },
+  "projects": {
+    "title": "Projets en Vedette",
+    "subtitle": "Un aperçu de mes travaux récents et projets personnels qui démontrent mes compétences et ma passion pour le développement.",
+    "demo": "Démo",
+    "code": "Code"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Vous avez un projet en tête ou souhaitez collaborer ? J'aimerais avoir de vos nouvelles !",
+    "letsConnect": "Connectons-nous",
+    "sendMessage": "Envoyer un Message",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "subject": "Sujet",
+      "message": "Message",
+      "sending": "Envoi en cours...",
+      "sendMessage": "Envoyer le Message",
+      "successMessage": "Merci ! Votre message a été envoyé."
+    }
+  },
+  "buttons": {
+    "contactMe": "Me Contacter",
+    "viewMyWork": "Voir Mon Travail",
+    "resume": "CV",
+    "scrollDown": "Faire Défiler"
+  }
+} 

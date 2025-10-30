@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact",
+    "downloadCV": "Download CV"
+  },
+  "hero": {
+    "availableForWork": "Available for work",
+    "greeting": "Hi, I'm",
+    "currentlyWorking": "Currently working on ML/AI projects...",
+    "title": "Data Scientist & AI Engineer"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Get to know more about my skills, experience, and approach to AI/ML development.",
+    "professionalTitle": "Data Scientist & AI Engineer",
+    "summary": "Data Scientist specializing in Machine Learning and AI, with hands-on experience developing production-ready solutions in R&D and business environments across France and Tunisia. Passionate about solving complex real-world problems through data-driven solutions, from experimental research to scalable deployments.",
+    "location": "Based in Cergy, France",
+    "education": {
+      "title": "Education",
+      "type": "Type"
+    },
+    "skills": [
+      "Frontend Development",
+      "Database Management", 
+      "API Development",
+      "Backend Development",
+      "UI/UX Design",
+      "Testing & Deployment"
+    ],
+    "features": {
+      "userCentered": {
+        "title": "User-Centered",
+        "description": "Building with users in mind, focusing on intuitive and accessible experiences."
+      },
+      "cleanCode": {
+        "title": "Clean Code", 
+        "description": "Writing maintainable, efficient, and well-structured code following best practices."
+      },
+      "scalableSolutions": {
+        "title": "Scalable Solutions",
+        "description": "Developing architecture that grows with your business needs."
+      },
+      "modernTechnologies": {
+        "title": "Modern Technologies",
+        "description": "Using the latest frameworks and tools for optimal performance."
+      }
+    }
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "subtitle": "My journey in Data Science and AI across France and Tunisia.",
+    "responsibilities": "Responsibilities:",
+    "expandDetails": "Expand details",
+    "collapseDetails": "Collapse details",
+    "showVideo": "Show Demo Video",
+    "hideVideo": "Hide Demo Video",
+    "download": "Download",
+    "watchDemo": "Watch Demo",
+    "viewCertificate": "View Certificate"
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "subtitle": "Technologies and tools I've worked with throughout my career.",
+    "categories": {
+      "ai": "AI & LLM",
+      "backend": "Backend",
+      "frontend": "Frontend", 
+      "databases": "Databases",
+      "tools": "Tools & DevOps"
+    },
+    "proficiencyLevels": "Proficiency Levels",
+    "levels": {
+      "aiIntegration": "AI & LLM Integration",
+      "backendDevelopment": "Backend Development",
+      "frontendDevelopment": "Frontend Development",
+      "databaseDesign": "Database Design",
+      "devopsDeployment": "DevOps & Deployment"
+    },
+    "coreCompetencies": {
+      "title": "Core Competencies",
+      "areas": {
+        "aiIntegration": {
+          "title": "AI/ML Integration",
+          "description": "Designing computer vision and NLP systems with deep learning; building real-time inference pipelines and evaluation workflows."
+        },
+        "fullStackDevelopment": {
+          "title": "Model Development & Optimization",
+          "description": "Experiment tracking, hyperparameter tuning, and performance optimization for robust ML models ready for production."
+        },
+        "databaseApiDesign": {
+          "title": "Data Engineering & APIs",
+          "description": "Data preparation, feature engineering, and API orchestration (FastAPI/Flask) backed by MongoDB/PostgreSQL."
+        },
+        "modernPractices": {
+          "title": "MLOps & Best Practices",
+          "description": "Versioning, reproducibility, Dockerization, CI/CD, and collaborative workflows for reliable deployments."
+        }
+      }
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "A showcase of my recent work and personal projects that demonstrate my skills and passion for development.",
+    "demo": "Demo",
+    "code": "Code"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Have a project in mind or want to collaborate? I'd love to hear from you!",
+    "letsConnect": "Let's Connect",
+    "sendMessage": "Send a Message",
+    "form": {
+      "name": "Name",
+      "email": "Email", 
+      "subject": "Subject",
+      "message": "Message",
+      "sending": "Sending...",
+      "sendMessage": "Send Message",
+      "successMessage": "Thank you! Your message has been sent."
+    }
+  },
+  "buttons": {
+    "contactMe": "Contact Me",
+    "viewMyWork": "View My Work",
+    "resume": "Resume",
+    "scrollDown": "Scroll Down"
+  }
+} 
