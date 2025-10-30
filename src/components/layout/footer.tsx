@@ -1,9 +1,13 @@
+"use client";
+
 import Link from "next/link";
 import { Github, Linkedin, Mail,Phone , MapPin } from "lucide-react";
 import { PERSONAL_INFO } from "@/data/constants";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
+  const { t } = useLanguage();
   
   return (
     <footer className="bg-gray-50 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 py-12">
@@ -65,31 +69,31 @@ export function Footer() {
                 href="/" 
                 className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 text-sm"
               >
-                Home
+                {t('nav.home')}
               </Link>
               <Link 
                 href="/#about" 
                 className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 text-sm"
               >
-                About
+                {t('nav.about')}
               </Link>
               <Link 
                 href="/#experience" 
                 className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 text-sm"
               >
-                Experience
+                {t('nav.experience')}
               </Link>
               <Link 
                 href="/#projects" 
                 className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 text-sm"
               >
-                Projects
+                {t('nav.projects')}
               </Link>
               <Link 
                 href="/#contact" 
                 className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 text-sm"
               >
-                Contact
+                {t('nav.contact')}
               </Link>
             </nav>
             <p className="text-xs text-gray-500 dark:text-gray-400">

@@ -22,15 +22,15 @@ const translations = {
 };
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
-  const [language, setLanguage] = useState<Language>('en');
+  const [language, setLanguage] = useState<Language>('fr');
 
-  // Load saved language preference
-  useEffect(() => {
-    const savedLanguage = localStorage.getItem('portfolio-language') as Language;
-    if (savedLanguage && (savedLanguage === 'en' || savedLanguage === 'fr')) {
-      setLanguage(savedLanguage);
-    }
-  }, []);
+  // Remove the following block so it doesn't override with localStorage
+  // useEffect(() => {
+  //   const savedLanguage = localStorage.getItem('portfolio-language') as Language;
+  //   if (savedLanguage && (savedLanguage === 'en' || savedLanguage === 'fr')) {
+  //     setLanguage(savedLanguage);
+  //   }
+  // }, []);
 
   // Save language preference
   const handleSetLanguage = (lang: Language) => {

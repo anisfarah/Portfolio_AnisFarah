@@ -47,7 +47,7 @@ export function ContactSection() {
               {PERSONAL_INFO.contact.phone && (
                 <ContactItem
                   icon={<Phone className="w-5 h-5" />}
-                  label="Téléphone"
+                  label={t('contact.phoneLabel')}
                   value={PERSONAL_INFO.contact.phone}
                   href={`tel:${PERSONAL_INFO.contact.phone.replace(/\s+/g,'')}`}
                 />
@@ -55,13 +55,13 @@ export function ContactSection() {
               <ContactItem
                 icon={<Github className="w-5 h-5" />}
                 label="GitHub"
-                value="GitHub Profile"
+                value={t('contact.githubProfile')}
                 href={PERSONAL_INFO.contact.github}
               />
               <ContactItem
                 icon={<Linkedin className="w-5 h-5" />}
                 label="LinkedIn"
-                value="LinkedIn Profile"
+                value={t('contact.linkedinProfile')}
                 href={PERSONAL_INFO.contact.linkedin}
               />
               {/* {PERSONAL_INFO.contact.location && (

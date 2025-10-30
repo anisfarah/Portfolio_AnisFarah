@@ -113,6 +113,9 @@
     "subtitle": "Have a project in mind or want to collaborate? I'd love to hear from you!",
     "letsConnect": "Let's Connect",
     "sendMessage": "Send a Message",
+    "phoneLabel": "Phone",
+    "githubProfile": "GitHub Profile",
+    "linkedinProfile": "LinkedIn Profile",
     "form": {
       "name": "Name",
       "email": "Email", 
