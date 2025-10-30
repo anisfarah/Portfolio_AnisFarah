@@ -37,8 +37,8 @@ npm start
 
 ## Deployment
 
-This site is automatically deployed to GitHub Pages using GitHub Actions.
+This site is deployed on Vercel.
 
 ## Visit
 
-[anisfarah.engineer](https://anisfarah.engineer)
+[portfolio-anisfarah.vercel.app](https://portfolio-anisfarah.vercel.app/)
